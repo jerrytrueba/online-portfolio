@@ -8,7 +8,7 @@ In this online portfolio you will be able to see and review some of the work tha
 You will be able to see the first group project (Great Date - App Idea). This portfolio also includes links to my Github repositories and LinkedIn account.
 
 **Example of Online Portfolio**
-![](Assets/Images/home.png)
+![](Assets/Images/home)
 
 
 **Programs Used**
