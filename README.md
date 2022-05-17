@@ -1,7 +1,8 @@
 # Online Portfolio
 
 **To see my Online Portfolio:**
-*Click Here*
+
+https://jerrytrueba.github.io/online-portfolio/
 
 **Github Repositories:**
 
