@@ -22,6 +22,7 @@ Next, by clicking on 'Portfolio', it will scroll down to small snipet of some of
 Finally, by clicking on 'Contact', it will scroll down to the end of my online portfolio and how you are able to get in contact with me.
 
 **Additional Features**
+
 ![](Assets/Images/links)
 On the left hand side of the online portfolio, you will see 3 small icons at the bottom. The first one icon, starting from left to right, will redirect you to my LinkedIn account. The middle icon, will redirect you to my Github profile. The last icon, will redirect you to my most current resume.
 
