@@ -6,7 +6,7 @@ https://jerrytrueba.github.io/online-portfolio/
 
 **Github Repositories:**
 
-https://github.com/jerrytrueba/online-portfolio
+https://github.com/jerrytrueba/online-portfolio/tree/master
 
 **Online Portfolio Information**
 
