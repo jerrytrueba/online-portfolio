@@ -1,0 +1,320 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    transition: all .2s linear;
+    line-height: 1.5;
+    outline: none;
+    border: none;
+}
+
+html {
+    font-size: 10px;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+body {
+    background: white;
+    padding-left: 30rem;
+}
+
+section {
+    padding: 1rem 5%;
+    min-height: 100vh;
+}
+
+header {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8rem 2rem;
+    flex-flow: column;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background: black;
+    width: 30rem;
+    text-align: center;
+}
+
+header .logo {
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+header .logo span {
+    color: darkcyan;
+}
+
+header .navbar a {
+    margin: 2rem 0;
+    color: white;
+    display: block;
+    font-size: 20px;
+}
+
+header .navbar a:hover {
+    color: darkcyan;
+}
+
+header .follow a {
+    margin: 0 .7rem;
+    font-size: 4rem;
+    color: white;
+}
+
+header .follow a:hover {
+    color: darkcyan;
+}
+
+
+/*This is where the home section starts*/
+
+.home {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.home .image {
+    flex: 1 1 40rem;
+}
+
+.home .image img {
+    width: 100%;
+    border: solid darkcyan .3rem;
+}
+
+.home .content {
+    flex: 1 1 40rem;
+}
+
+.home .content h3 {
+    font-size: 6rem;
+    color: #111;
+    padding: .5rem;
+}
+
+.home .content .text {
+    font-size: 1.5rem;
+    color: darkcyan;
+    padding: .5rem 0;
+    text-align: center;
+}
+
+
+/*This is where the home section ends*/
+
+
+/*This is where the about me starts*/
+
+.about {
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.about .image img {
+    width: 100%;
+    border: solid white .3rem;
+}
+
+.about .heading {
+    padding: 0;
+    font-size: 5rem;
+}
+
+.about span {
+    color: darkcyan;
+}
+
+.about .row-1 {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 2rem;
+    gap: 1.5rem;
+}
+
+.about .row-1 .content h3 {
+    font-size: 2.5rem;
+    color: darkcyan;
+}
+
+.about .row-1 .content p {
+    font-size: 1.5rem;
+    color: white;
+    padding: .5rem;
+}
+
+.about .row-1 .content .box-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    padding: .5rem 0;
+}
+
+.about .row-1 .content .box-container .box {
+    flex: 1 1 20rem;
+}
+
+.about .row-1 .content .box-container .box span {
+    color: darkcyan;
+    font-weight: bold;
+}
+
+
+/*This is where the about me ends*/
+
+
+/*This is where the portfolio section starts*/
+
+.portfolio .heading {
+    padding: 0;
+    font-size: 5rem;
+}
+
+.portfolio span {
+    color: darkcyan;
+}
+
+.portfolio .box-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.portfolio .box-container .box:hover {
+    opacity: .9;
+    box-shadow: white;
+}
+
+.portfolio .box-container .box {
+    flex: 1 1 40rem;
+    height: 35rem;
+    position: relative;
+    overflow: hidden;
+    border: .3rem solid darkcyan;
+}
+
+.portfolio .box-container .box img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+}
+
+.portfolio .box-container .box h3 {
+    position: absolute;
+    font-size: 1.5rem;
+    color: darkcyan;
+    bottom: .5rem;
+    left: 1rem;
+}
+
+.portfolio .box-container .box .work {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+
+.portfolio .box-container .box .work a {
+    display: block;
+    height: 4rem;
+    width: 4rem;
+    border-radius: .5rem;
+    background: white;
+    color: black;
+    font-size: 1.7rem;
+    line-height: 4rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.portfolio .box-container .box .work a:hover {
+    background: darkcyan;
+    color: white;
+}
+
+
+/*This is where the portfolio section ends*/
+
+
+/*This is where the contact me section starts*/
+
+.contact {
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.contact .image img {
+    width: 100%;
+    border: solid white .3rem;
+}
+
+.contact .heading {
+    padding: 0;
+    font-size: 5rem;
+}
+
+.contact span {
+    color: darkcyan;
+}
+
+.contact .icons-container {
+    display: flex;
+    padding-top: 1.5rem;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.contact .icons-container .icons {
+    flex: 1 1 25rem;
+    text-align: center;
+    padding: 2rem;
+    background: white;
+    border-radius: .5rem;
+}
+
+.contact .icons-container .icons i {
+    height: 5rem;
+    width: 5rem;
+    line-height: 5rem;
+    font-size: 2rem;
+    background: darkcyan;
+    color: #fff;
+    border-radius: 50%;
+}
+
+.contact .icons-container .icons h3 {
+    color: black;
+    font-size: 2rem;
+    padding: .5rem 0;
+    padding-top: 1rem;
+}
+
+.contact .icons-container .icons p {
+    color: black;
+    font-size: 1.7rem;
+}
+
+.contact .row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.contact .row form {
+    background: white;
+    padding: 0 2rem;
+    flex: 1 1 50rem;
+    border-radius: .5rem;
+}
+
+
+/*This is where the contact section ends*/
